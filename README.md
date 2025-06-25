@@ -106,4 +106,4 @@ You can write them in a `reflect.md` file or a comment thread — your call.
 7. Come back next week for more 🔁
 
 ## Missions
-Coming soon Neo 🕶️
+- [Week 1 – Dive into the Matrix](exercise/week01/docs/MISSION.md)
