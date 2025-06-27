@@ -108,5 +108,5 @@ You can write them in a `reflect.md` file or a comment thread — your call.
 ## Missions
 - [Week 1 – Dive into the Matrix](exercise/week01/docs/MISSION.md)
 
-<div style="text-align: center"><a href="https://genaithics.gitbook.io/genaithics/#les-codes-genaithics"><img src=
-"img/genaithics_code_H-1-H.png" height="42"></div></a>
+<div style="text-align: center"><a href="https://github.com/Mathieu-genAI/genaithics?tab=readme-ov-file#the-genaithics-codes"><img src=
+"https://github.com/Mathieu-genAI/genaithics/raw/main/img/genaithics_code_H-1-H_208x100.png" height="42"></div></a>
