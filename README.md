@@ -1,4 +1,6 @@
-# Cahier de Vacances B3
+# Cahier de Vacances B3 
+[![License](https://img.shields.io/github/license/coda-school/cahier-de-vacances-b3.svg)](https://github.com/coda-school/cahier-de-vacances-b3/?tab=MIT-1-ov-file#readme)
+
 Welcome to your **Cahier de Vacances** – a journey into a simulation unlike any other. 
 This project will challenge your logic, discipline, refactoring skills, and design thinking through weekly, hands-on coding challenges.
 
