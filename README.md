@@ -113,5 +113,6 @@ You can write them in a `reflect.md` file or a comment thread — your call.
 - [Week 3 – Extend the Simulation](exercise/week03/docs/MISSION.md)
 - [Week 4 – Rebuilding the Simulation Core](exercise/week04/docs/MISSION.md)
 - [Week 5 – Breach the Matrix](exercise/week05/MISSION.md)
+- [Week 6 – Sever the Signal](exercise/week06/MISSION.md)
 
 [![genaithics-H-1-HZ](https://github.com/Mathieu-genAI/genaithics/raw/main/img/genaithics_code_H-1-H_104x50.png)](https://github.com/Mathieu-genAI/genaithics?tab=readme-ov-file#the-genaithics-codes)
