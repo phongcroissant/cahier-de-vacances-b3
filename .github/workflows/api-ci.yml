@@ -1,4 +1,7 @@
-name: Build and deploy matrix-api on Azure
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - matrix-api
 
 on:
   push:
@@ -69,14 +72,10 @@ jobs:
         with:
           name: backend-build
           path: ./proposed-solution/week08/api/FirewallCracker/publish
-
+          
   deploy:
-    name: deploy to azure
     runs-on: windows-latest
     needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
       id-token: write #This is required for requesting the JWT
       contents: read #This is required for actions/checkout
@@ -90,9 +89,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_84832FBD13C14AC79F33C6B2BF0E0380 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B881CBC1EA0644349A0EE641772DD234 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_D314455142C5466283CFD6BE254129E6 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_112B7D073F9E4307B8F46DA1D5E4F1BC }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_287BFE29722946E6B8B04EE6716119F2 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_10271C1CF7244ED08C5674D1CB577A1F }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -101,3 +100,6 @@ jobs:
           app-name: 'matrix-api'
           slot-name: 'Production'
           package: .
+
+          
+
