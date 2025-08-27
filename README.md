@@ -116,5 +116,6 @@ You can write them in a `reflect.md` file or a comment thread — your call.
 - [Week 6 – Sever the Signal](exercise/week06/MISSION.md)
 - [Week 7 – Rewrite the Rule Matrix](exercise/week07/MISSION.md)
 - [Week 8 – Final Upload](exercise/week08/MISSION.md)
+- [Week 9 – Neo Wins!](exercise/week09/MISSION.md)
 
 [![genaithics-H-1-HZ](https://github.com/Mathieu-genAI/genaithics/raw/main/img/genaithics_code_H-1-H_104x50.png)](https://github.com/Mathieu-genAI/genaithics?tab=readme-ov-file#the-genaithics-codes)
