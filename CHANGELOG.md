@@ -17,6 +17,8 @@ All notable changes to the matrix will be documented in this file.
 
 ### 🚀 Features
 
+- Script test environment using docker ([53e50f6](https://github.com/coda-school/cahier-de-vacances-b3/commit/53e50f6c157fe954d52cfc7190025a8a8b5f7433))
+- Update changelog ([88f747c](https://github.com/coda-school/cahier-de-vacances-b3/commit/88f747cec8ba62a9834d6e10d8cb5c5ac9fff4ac))
 - Add learning objectives per week ([31c911a](https://github.com/coda-school/cahier-de-vacances-b3/commit/31c911ae9a8ef48487d04aefb35a4ab3d5414c3c))
 - Add git-cliff to generate changelog ([54f2d86](https://github.com/coda-school/cahier-de-vacances-b3/commit/54f2d863442e238afaf755b4b1a497b1b2f0cd4c))
 - Add exercise for week 09 ([e12352c](https://github.com/coda-school/cahier-de-vacances-b3/commit/e12352c3e759b4ce872206916409f01709ee1f0b))

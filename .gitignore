@@ -51,6 +51,7 @@ Obj/
 dotCover*
 BenchmarkDotNet.Artifacts/
 *.DotSettings
+publish/
 
 #### Specflow
 *.feature.cs
