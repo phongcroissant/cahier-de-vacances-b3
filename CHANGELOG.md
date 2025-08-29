@@ -17,6 +17,8 @@ All notable changes to the matrix will be documented in this file.
 
 ### 🚀 Features
 
+- Add learning objectives per week ([31c911a](https://github.com/coda-school/cahier-de-vacances-b3/commit/31c911ae9a8ef48487d04aefb35a4ab3d5414c3c))
+- Add git-cliff to generate changelog ([54f2d86](https://github.com/coda-school/cahier-de-vacances-b3/commit/54f2d863442e238afaf755b4b1a497b1b2f0cd4c))
 - Add exercise for week 09 ([e12352c](https://github.com/coda-school/cahier-de-vacances-b3/commit/e12352c3e759b4ce872206916409f01709ee1f0b))
 - Add proposed solution for week 08 ([f3ea6ea](https://github.com/coda-school/cahier-de-vacances-b3/commit/f3ea6ead93ad7d7b0363d603e9ac6edcbfaf3681))
 - Add exercise for week 08 ([f30ed87](https://github.com/coda-school/cahier-de-vacances-b3/commit/f30ed870345173e452e673d0fe9eef0b24246c56))
@@ -43,6 +45,7 @@ All notable changes to the matrix will be documented in this file.
 
 ### 🐛 Bug Fixes
 
+- Name of gh action ([a5aabf8](https://github.com/coda-school/cahier-de-vacances-b3/commit/a5aabf89d45ecee1d10a53624e71df9238f37301))
 - Use new az auth method ([e2e1269](https://github.com/coda-school/cahier-de-vacances-b3/commit/e2e1269144c6ee15e3e50e2bd211c9061c415fb5))
 - Delete az created yml file ([029e5ca](https://github.com/coda-school/cahier-de-vacances-b3/commit/029e5cabbde4b819328daf59d7423dc2cc05d24a))
 - Try to fix AZ deployment with az self configured secrets ([81e6eec](https://github.com/coda-school/cahier-de-vacances-b3/commit/81e6eec9c2cbb3c34d7f8cb32863480d064f10fa))
