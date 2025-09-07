@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__Matrix=Data Source=/app/data/matrix.db
+      - AllowedCorsOrigins__0=http://localhost:3000
+    volumes:
+      - api-data:/app/data
+      - api-logs:/app/Logs
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/password-check || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:80 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  api-data:
+    driver: local
+  api-logs:
+    driver: local
+
+networks:
+  default:
+    driver: bridge
